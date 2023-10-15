@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,900;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+*::selection{
+    color: #fff;
+    background: #000;
+}
+
+body , html{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    /* background-color: rgb(0, 0, 0); */
+}
+#home{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: rgba(226, 43, 43, 0); */
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 18px 35px;
+}
+
+#nleft img{
+    width: 95px;
+    cursor: pointer;
+}
+
+#nright a{
+    text-decoration: none;
+    color: black;
+}
+
+#main #hero{
+    width: 100%;
+    padding: 15vw 16vw;
+    /* background-color: red; */
+}
+
+#hero h1{
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+
+.headings{
+    display: flex;
+    gap: 40px;
+}
+
+#hero .headings h1{
+    /* cursor: pointer; */
+    font-family: 'Poppins', sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 1.5px #000;
+    font-size: 7vw;
+    font-weight: 700;
+    letter-spacing: -4px;
+}
+
+#hero .headings h1:hover{
+    color: #000;
+}
+
+#homelast p{
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 400;
+    letter-spacing: -.1;
+}
+
+#homelast p::selection{
+    color: #fff;
+    background: #000;
+}
+
+#homelast{
+    padding: 5vw 16vw;
+}
+
+#featured{
+    padding: 15vw 16vw;
+}
+
+.fheading h1{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+.fheading h1:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+
+#fimages{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    /* padding: 0vw 15vw; */
+    margin-top: 5vw;
+    /* border: 2px solid red; */
+}
+
+#fleft{
+    overflow: hidden;
+    width: 45%;
+    height: inherit;
+    /* border: 1px solid blue; */
+}
+
+.fleftelem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: red; */
+    width: 100%;
+    height: inherit;
+}
+
+.fleftelem h1{
+    font-size: 2.5vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 1.5vw 0;
+}
+
+.fleftelem h3{
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+.fleftelem h4{
+    opacity: .7;
+}
+
+#fright{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 45%;
+    height: inherit;
+}
+
+#fright .images{
+    width: 90%;
+    height: 90%;
+    
+}
+#fright .images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#btndiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btndiv button{
+    padding: 1.3vw 2.5vw;
+    border-radius: 100px;
+    border: 2px solid gray;
+    font-size: 1vw;
+    font-weight: 500;
+}
